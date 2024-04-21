@@ -34,7 +34,7 @@ you can use `kubectl get pods` to check whether the image is throwing an error o
 2. Use `kubectl apply -f <file_name.yml>`
 3. Use `kubectl get pods -w` to monitor in live mode.
 
-![alt text]()
+![alt text](https://github.com/Shreyank031/Kubernetes_Troubleshooting/blob/master/Imagepullbackerror/imagepullbackoff.png)
 
 #### How to pull a private repository.
 In order to pull a private repo in docker hub, you need to provide your docker username, password and 
