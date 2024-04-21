@@ -39,6 +39,9 @@ To troubleshoot the "ImagePullBackOff" error, follow these steps:
 
 The "CrashLoopBackOff" error in Kubernetes occurs when a container in a pod repeatedly crashes immediately after starting up, causing Kubernetes to continually restart the container in an attempt to keep the pod running. However, if the container keeps crashing without successfully starting, Kubernetes enters a loop where it repeatedly tries to restart the container, resulting in the "CrashLoopBackOff" error. Essentially, it indicates that there's an issue preventing the container from running successfully, and Kubernetes is unable to resolve it automatically.
 
+
+![alt text]()
+
 ## Common Situations Leading to CrashLoopBackOff Error
 
 The CrashLoopBackOff error in Kubernetes indicates that a container is repeatedly crashing and restarting. Below are explanations of how the CrashLoopBackOff error can occur due to specific reasons:
